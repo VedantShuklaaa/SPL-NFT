@@ -641,6 +641,7 @@ dependencies = [
  "anchor-lang",
  "anchor-spl",
  "litesvm",
+ "solana-instruction 3.5.1",
  "solana-keypair",
  "solana-message",
  "solana-signer",
