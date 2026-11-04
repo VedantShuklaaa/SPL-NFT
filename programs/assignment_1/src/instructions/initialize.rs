@@ -29,7 +29,7 @@ pub struct Initialize<'info> {
     pub system_program: Program<'info, System>,
 }
 
-pub fn handler(ctx: Context<Initialize>, max_supply: u64) -> Result<()> {
+pub fn initialize(ctx: Context<Initialize>, max_supply: u64) -> Result<()> {
     let config = &mut ctx.accounts.config;
     config.mint = ctx.accounts.mint.key();
     config.max_supply = max_supply;
