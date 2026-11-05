@@ -49,7 +49,7 @@ anchor build
 anchor program deploy --provider.cluster devnet
 ```
 
-- Program ID: `<PROGRAM_ID>`
+- Program ID: `GaACs4zuG2AQWEppSamaj7v9BDyNXE15deckMromZDsh`
 - Explorer: `https://explorer.solana.com/address/GaACs4zuG2AQWEppSamaj7v9BDyNXE15deckMromZDsh?cluster=devnet`
 
 ## Run the demo script
